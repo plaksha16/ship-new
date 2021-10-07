@@ -40,7 +40,7 @@ if(keyDown("space"))
   sea.velocityX=-7 
 }
 if (sea.x<0){
-  sea.x=sea.width/2
+  sea.x=300
 }
 
 //ship.collide(edges[4])
