@@ -19,7 +19,7 @@ function setup(){
   createCanvas(600,400);
   sea=createSprite(400,250)
   sea.addImage("sea",seaimg)
-
+sea.velocityX=-2
 console.log(sea.width)
  ship=createSprite(240,200,50,50)
   ship.addAnimation("ship_sailing",shipimg) ; 
